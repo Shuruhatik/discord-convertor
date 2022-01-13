@@ -1,0 +1,507 @@
+[
+  {
+    "v11": ".ping",
+    "v12": ".ws.ping",
+    "v13": ".ws.ping"
+  },
+  {
+    "v11": ".position",
+    "v12": ".rawPosition",
+    "v13": ".rawPosition"
+  },
+  {
+    "v11": ".sendEmbed(embed)",
+    "v12": ".send({ embed: embed})",
+    "v13": ".send({ embeds: [embed] })"
+  },
+  {
+    "v11": ".createOpusStream",
+    "v12": ".createStream",
+    "v13": ".createStream"
+  },
+  {
+    "v11": ".createPCMStream",
+    "v12": ".createStream",
+    "v13": ".createStream"
+  },
+  {
+    "v11": "calculatedPosition",
+    "v12": "position",
+    "v13": "position"
+  },
+  {
+    "v11": ".roles.get",
+    "v12": ".roles.cache.get",
+    "v13": ".roles.cache.get"
+  },
+  {
+    "v11": ".voiceConnection",
+    "v12": ".voice.connection",
+    "v13": ".voice.connection"
+  },
+  {
+    "v11": ".createCollector",
+    "v12": ".createMessageCollector",
+    "v13": ".createMessageCollector"
+  },
+  {
+    "v11": ".addRole",
+    "v12": ".roles.add",
+    "v13": ".roles.add"
+  },
+  {
+    "v11": ".removeRole",
+    "v12": ".roles.remove",
+    "v13": ".roles.remove"
+  },
+  {
+    "v11": ".addRoles",
+    "v12": ".roles.add",
+    "v13": ".roles.add"
+  },
+  {
+    "v11": ".removeRoles",
+    "v12": ".roles.remove",
+    "v13": ".roles.remove"
+  },
+  {
+    "v11": ".setRoles",
+    "v12": ".roles.set",
+    "v13": ".roles.set"
+  },
+  {
+    "v11": ".pruneMembers",
+    "v12": ".members.prune",
+    "v13": ".members.prune"
+  },
+  {
+    "v11": ".defaultRole",
+    "v12": ".roles.everyone",
+    "v13": ".roles.everyone"
+  },
+  {
+    "v11": ".createChannel",
+    "v12": ".channels.create",
+    "v13": ".channels.create"
+  },
+  {
+    "v11": ".deleteEmoji",
+    "v12": ".emojis.resolve",
+    "v13": ".emojis.resolve"
+  },
+  {
+    "v11": ".createRole",
+    "v12": ".roles.create",
+    "v13": ".roles.create"
+  },
+  {
+    "v11": ".createEmoji",
+    "v12": ".emojis.create",
+    "v13": ".emojis.create"
+  },
+  {
+    "v11": ".presence.game",
+    "v12": ".presence.game",
+    "v13": ".presence.game"
+  },
+  {
+    "v11": ".status",
+    "v12": ".ws.status",
+    "v13": ".ws.status"
+  },
+  {
+    "v11": ".createGuild",
+    "v12": ".guilds.create",
+    "v13": ".guilds.create"
+  },
+  {
+    "v11": ".get",
+    "v12": ".cache.get",
+    "v13": ".cache.get"
+  },
+  {
+    "v11": ".avatarURL",
+    "v12": ".avatarURL()",
+    "v13": ".avatarURL()"
+  },
+  {
+    "v11": ".setGame",
+    "v12": ".setActivity",
+    "v13": ".setActivity"
+  },
+  {
+    "v11": ".emoji.addRestrictedRoles",
+    "v12": ".emoji.roles.set",
+    "v13": ".emoji.roles.set"
+  },
+  {
+    "v11": ".emoji.addRestrictedRole",
+    "v12": ".emoji.roles.add",
+    "v13": ".emoji.roles.add"
+  },
+  {
+    "v11": ".emoji.removeRestrictedRole",
+    "v12": ".emoji.roles.remove",
+    "v13": ".emoji.roles.remove"
+  },
+  {
+    "v11": ".displayAvatarURL",
+    "v12": ".displayAvatarURL()",
+    "v13": ".displayAvatarURL()"
+  },
+  {
+    "v11": ".roles.deleteAll",
+    "v12": ".roles.clear",
+    "v13": ".roles.clear"
+  },
+  {
+    "v11": ".playFile",
+    "v12": ".play",
+    "v13": ".play"
+  },
+  {
+    "v11": ".end()",
+    "v12": ".destroy()",
+    "v13": ".destroy()"
+  },
+  {
+    "v11": ".iconURL",
+    "v12": ".iconURL()",
+    "v13": ".iconURL()"
+  },
+  {
+    "v11": ".splashURL",
+    "v12": ".splashURL()",
+    "v13": ".splashURL()"
+  },
+  {
+    "v11": ".hasPermission",
+    "v12": ".hasPermission",
+    "v13": ".permissions.has"
+  },
+  {
+    "v11": ".removeRole",
+    "v12": ".roles.remove",
+    "v13": ".roles.remove"
+  },
+  {
+    "v11": ".users.exists",
+    "v12": ".users.cache.some",
+    "v13": ".users.cache.some"
+  },
+  {
+    "v11": ".channels.exists",
+    "v12": ".channels.cache.some",
+    "v13": ".channels.cache.some"
+  },
+  {
+    "v11": ".users.find",
+    "v12": ".users.cache.find",
+    "v13": ".users.cache.find"
+  },
+  {
+    "v11": "RichEmbed",
+    "v12": "MessageEmbed",
+    "v13": "MessageEmbed"
+  },
+  {
+    "v11": "ban",
+    "v12": "members.ban",
+    "v13": "members.ban"
+  },
+  {
+    "v11": "unban",
+    "v12": "members.unban",
+    "v13": "members.unban"
+  },
+  {
+    "v11": "fetchUser",
+    "v12": "users.fetch",
+    "v13": "users.fetch"
+  },
+  {
+    "v11": "fetchMember",
+    "v12": "members.fetch",
+    "v13": "members.fetch"
+  },
+  {
+    "v11": "fetchMessage",
+    "v12": "messages.fetch",
+    "v13": "messages.fetch"
+  },
+  {
+    "v11": "fetchPinnedMessages",
+    "v12": "messages.fetchPinned",
+    "v13": "messages.fetchPinned"
+  },
+  {
+    "v11": ".sendEmbed",
+    "v12": ".send",
+    "v13": ".send"
+  },
+  {
+    "v11": ".sendCode",
+    "v12": ".send",
+    "v13": ".send"
+  },
+  {
+    "v11": ".sendFile",
+    "v12": ".send",
+    "v13": ".send"
+  },
+  {
+    "v11": ".editCode",
+    "v12": ".edit",
+    "v13": ".edit"
+  },
+  {
+    "v11": ".smallImageURL",
+    "v12": ".smallImageURL()",
+    "v13": ".smallImageURL()"
+  },
+  {
+    "v11": ".largeImageURL",
+    "v12": ".largeImageURL()",
+    "v13": ".largeImageURL()"
+  },
+  {
+    "v11": "READ_MESSAGES",
+    "v12": "VIEW_CHANNEL",
+    "v13": "VIEW_CHANNEL"
+  },
+  {
+    "v11": "VERIFIED_DEVELOPER",
+    "v12": "VERIFIED_DEVELOPER",
+    "v13": "EARLY_VERIFIED_BOT_DEVELOPER"
+  },
+  {
+    "v11": "DISCORD_PARTNER",
+    "v12": "DISCORD_PARTNER",
+    "v13": "PARTNERED_SERVER_OWNER"
+  },
+  {
+    "v11": "message",
+    "v12": "message",
+    "v13": "messageCreate"
+  },
+  {
+    "v11": "interaction",
+    "v12": "interaction",
+    "v13": "interactionCreate"
+  },
+  {
+    "v11": "EXTERNAL_EMOJIS",
+    "v12": "USE_EXTERNAL_EMOJIS",
+    "v13": "USE_EXTERNAL_EMOJIS"
+  },
+  {
+    "v11": "MANAGE_ROLES_OR_PERMISSIONS",
+    "v12": "MANAGE_ROLES",
+    "v13": "MANAGE_ROLES"
+  },
+  {
+    "v11": "missingPermissions",
+    "v12": "missing",
+    "v13": "missing"
+  },
+  {
+    "v11": "raw",
+    "v12": "bitfield",
+    "v13": "bitfield"
+  },
+  {
+    "v11": "isMentioned",
+    "v12": "mentions.has",
+    "v13": "mentions.has"
+  },
+  {
+    "v11": "clearReactions",
+    "v12": "reactions.removeAll",
+    "v13": "reactions.removeAll"
+  },
+  {
+    "v11": "voiceSessionID",
+    "v12": "voice.sessionID",
+    "v13": "voice.sessionID"
+  },
+  {
+    "v11": "voiceConnections",
+    "v12": "voice.connections",
+    "v13": "voice.connections"
+  },
+  {
+    "v11": "voiceChannelID",
+    "v12": "voice.channelID",
+    "v13": "voice.channelID"
+  },
+  {
+    "v11": "voiceChannel",
+    "v12": "voice.channel",
+    "v13": "voice.channel"
+  },
+  {
+    "v11": "clearReactions",
+    "v12": "voice.channel",
+    "v13": "voice.channel"
+  },
+  {
+    "v11": "speaking",
+    "v12": "voice.speaking",
+    "v13": "voice.speaking"
+  },
+  {
+    "v11": "setVoiceChannel(null)",
+    "v12": "voice.kick()",
+    "v13": "voice.kick()"
+  },
+  {
+    "v11": "setVoiceChannel",
+    "v12": "voice.setChannel",
+    "v13": "voice.setChannel"
+  },
+  {
+    "v11": "setMute",
+    "v12": "voice.setMute",
+    "v13": "voice.setMute"
+  },
+  {
+    "v11": "setDeaf",
+    "v12": "voice.setDeaf",
+    "v13": "voice.setDeaf"
+  },
+  {
+    "v11": "setRoles",
+    "v12": "roles.set",
+    "v13": "roles.set"
+  },
+  {
+    "v11": ".colorRole",
+    "v12": ".roles.color",
+    "v13": ".roles.color"
+  },
+  {
+    "v11": ".createVoiceBroadcast()",
+    "v12": ".voice.createBroadcast()",
+    "v13": ".voice.createBroadcast()"
+  },
+  {
+    "v11": ".broadcasts",
+    "v12": ".voice.broadcasts",
+    "v13": ".voice.broadcasts"
+  },
+  {
+    "v11": "highestRole",
+    "v12": "roles.highest",
+    "v13": "roles.highest"
+  },
+  {
+    "v11": "mute",
+    "v12": "voice.mute",
+    "v13": "voice.mute"
+  },
+  {
+    "v11": "selfMute",
+    "v12": "voice.selfMute",
+    "v13": "voice.selfMute"
+  },
+  {
+    "v11": "serverMute",
+    "v12": "voice.serverMute",
+    "v13": "voice.serverMute"
+  },
+  {
+    "v11": "hoistRole",
+    "v12": "roles.hoist",
+    "v13": "roles.hoist"
+  },
+  {
+    "v11": ".hasPermissions",
+    "v12": ".hasPermission",
+    "v13": ".hasPermission"
+  },
+  {
+    "v11": ".sendMessage",
+    "v12": ".send",
+    "v13": ".send"
+  },
+  {
+    "v11": "ownerID",
+    "v12": "ownerID",
+    "v13": "ownerId"
+  },
+  {
+    "v11": "channelID",
+    "v12": "channelID",
+    "v13": "channelId"
+  },
+  {
+    "v11": "fetchInvites",
+    "v12": "invites.fetch",
+    "v13": "invites.fetch"
+  },
+  {
+    "v11": ".member.get",
+    "v12": ".member.get",
+    "v13": ".members.cache.get"
+  },
+  {
+    "v11": ".users.get",
+    "v12": ".users.get",
+    "v13": ".users.cache.get"
+  },
+  {
+    "v11": ".messages.get",
+    "v12": ".messages.get",
+    "v13": ".messages.cache.get"
+  },
+  {
+    "v11": ".overwritePermissions",
+    "v12": ".createOverwrite",
+    "v13": ".permissionOverwrites.set"
+  },
+  {
+    "v11": ".overwritePermissions",
+    "v12": ".createOverwrite",
+    "v13": ".permissionOverwrites.create"
+  },
+  {
+    "v11": "fetchBan",
+    "v12": "fetchBan",
+    "v13": "bans.fetch"
+  },
+  {
+    "v11": "fetchBans",
+    "v12": "fetchBans",
+    "v13": "bans.fetch"
+  },
+  {
+    "v11": ".addMember",
+    "v12": ".addMember",
+    "v13": ".members.add"
+  },
+  {
+    "v11": "SEND_MESSAGES",
+    "v12": "SEND_MESSAGES",
+    "v13": "Permissions.FLAGS.SEND_MESSAGES"
+  },
+  {
+    "v11": "text",
+    "v12": "text",
+    "v13": "GUILD_TEXT"
+  },
+  {
+    "v11": "voice",
+    "v12": "voice",
+    "v13": "GUILD_VOICE"
+  },
+  {
+    "v11": "guildID",
+    "v12": "guildID",
+    "v13": "guildId"
+  },
+  {
+    "v11": ".fetchVanityCode()",
+    "v12": ".fetchVanityCode()",
+    "v13": ".fetchVanityData()"
+  }
+]

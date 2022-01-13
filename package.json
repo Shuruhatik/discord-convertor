@@ -1,0 +1,25 @@
+{
+  "name": "discord-convertor",
+  "version": "2.0.1",
+  "description": "To convert code from one version to another in discord.js The available versions are v11, v12 and 13",
+  "main": "index.js",
+  "keywords": [
+    "shuruhatik",
+    "st.db",
+    "discord.js",
+    "discord",
+    "discord.js v11",
+    "discord.js v12",
+    "djs",
+    "discord bot",
+    "discord.js v13",
+    "convertor"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "shuruhatik",
+  "license": "MIT"
+}
